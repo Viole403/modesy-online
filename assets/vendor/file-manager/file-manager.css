@@ -1,0 +1,252 @@
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 1100px !important;
+        max-width: 1100px !important;
+    }
+}
+
+#ckFileManagerModal {
+    z-index: 99999;
+}
+
+.modal-file-manager .modal-content {
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.modal-file-manager .modal-header {
+    padding: 10px;
+}
+
+.modal-file-manager .modal-header .modal-title {
+    font-size: 16px;
+}
+
+.modal-file-manager .modal-body {
+    padding: 0;
+}
+
+.modal-file-manager .modal-footer {
+    padding: 10px;
+}
+
+.file-manager {
+    width: 100%;
+    display: table;
+}
+
+.file-manager-content {
+    height: 422px;
+    overflow-y: auto;
+}
+
+.file-manager-left {
+    width: 250px;
+    display: table-cell;
+    border-right: 1px solid #eee;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.file-manager-left .image-preview {
+    display: block;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.file-manager-left .image-preview img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.file-manager-right {
+    display: table-cell;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.file-manager-left .btn-upload {
+    display: block;
+    position: relative;
+    cursor: pointer !important;
+}
+
+.col-file-manager {
+    padding: 5px;
+    float: left;
+}
+
+.file-box {
+    display: block;
+    padding: 5px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+}
+
+.file-box .image-container {
+    display: block;
+    width: 110px;
+    height: 65.41px;
+    overflow: hidden;
+}
+
+.file-box .image-container img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.file-manager-left .multi-preview-container {
+    width: 100%;
+    max-height: 262px;
+    margin-bottom: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    margin-top: 15px;
+}
+
+.file-manager-left .multi-preview-container img {
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.file-manager-left .file-manager-uploading-text {
+    text-align: center;
+    color: #6c757d;
+    margin-top: 8px;
+    margin-bottom: 0 !important;
+}
+
+.file-manager-left .btn-file-manager-image-upload {
+    display: none;
+}
+
+#audio_file_manager .file-box, #video_file_manager .file-box {
+    width: 100%;
+    height: 132px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.file-icon {
+    width: 80px;
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.file-manager .selected {
+    box-shadow: 0 0 5px rgba(40, 174, 141, 1);
+    border: 1px solid rgba(40, 174, 141, 1);
+}
+
+.file-manager-footer {
+    margin-left: 240px;
+}
+
+.btn-file-delete {
+    display: none;
+}
+
+.btn-file-select {
+    display: none;
+}
+
+.file-manager-list-item-name {
+    width: 100%;
+    padding: 0 5px;
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.input-file-label {
+    background-color: #5bc0de;
+    color: #fff;
+    text-align: left;
+    white-space: nowrap;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.loader-file-manager {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.loader-file-manager .sk-fading-circle {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.loader-file-manager .sk-fading-circle .sk-circle::before {
+    width: 17%;
+    height: 17%;
+    background-color: #6c757d;
+}
+
+.file-manager-upload-error {
+    color: #d43f3a;
+}
+
+.close-audio-manager {
+    margin-top: 0 !important;
+}
+
+.btn-file-manager {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0.4rem 1rem !important;
+    border-radius: 0.1875rem;
+    color: #fff !important;
+    cursor: pointer !important;
+}
+
+@media (max-width: 768px) {
+    .file-manager-search {
+        position: relative;
+        right: auto;
+        left: 0;
+        top: 10px;
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .file-box .image-container {
+        width: 100%;
+        height: auto;
+    }
+}

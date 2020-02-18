@@ -1,0 +1,171 @@
+/*
+*
+* Template Color CSS File
+* Color code: #495d7f
+* Author: Codingest
+* Template Name: Modesy
+*
+*/
+
+a:hover, a:focus, a:active {
+    color: #495d7f;
+}
+
+.btn-custom {
+    background-color: #495d7f;
+    border-color: #495d7f;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active {
+    background-color: #3f5170 !important;
+    border-color: #3f5170 !important;
+}
+
+.btn-custom .disabled, .btn-custom:disabled {
+    background-color: #3f5170 !important;
+    border-color: #3f5170 !important;
+}
+
+.btn-block {
+    background-color: #495d7f;
+}
+
+.btn-block:hover {
+    background-color: #3f5170;
+}
+
+.btn-outline {
+    border: 1px solid #495d7f;
+    color: #495d7f;
+}
+
+.btn-outline:hover {
+    background-color: #495d7f !important;
+}
+
+.btn-filter-products-mobile {
+    border: 1px solid #495d7f;
+    background-color: #495d7f;
+}
+
+.form-control:focus {
+    border-color: #495d7f;
+}
+
+.link {
+    color: #495d7f !important;
+}
+
+.link-color {
+    color: #495d7f;
+}
+
+.top-search-bar .btn-search {
+    background-color: #495d7f;
+}
+
+.nav-top .nav-top-right .nav li a:hover, .nav-top .nav-top-right .nav li a:focus, .nav-top .nav-top-right .nav li a:active {
+    color: #495d7f;
+}
+
+.nav-top .nav-top-right .nav li .btn-sell-now {
+    background-color: #495d7f !important;
+}
+
+.nav-main .navbar > .navbar-nav > .nav-item:hover .nav-link:before {
+    background-color: #495d7f;
+}
+
+.li-favorites a i {
+    color: #495d7f;
+}
+
+.product-share ul li a:hover {
+    color: #495d7f;
+}
+
+.product-reviews .comments .comment-list li .right .btn-reply {
+    color: #495d7f;
+}
+
+.pricing-card:after {
+    background-color: #495d7f;
+}
+
+.selected-card {
+    -webkit-box-shadow: 0 3px 0px 0 #495d7f;
+    box-shadow: 0 3px 0px 0 #495d7f;
+}
+
+.selected-card .btn-pricing-button {
+    background-color: #495d7f;
+}
+
+.profile-buttons .social ul li a:hover {
+    background-color: #495d7f;
+    border-color: #495d7f;
+}
+
+.btn-product-promote {
+    background-color: #495d7f;
+}
+
+.contact-social ul li a:hover {
+    background-color: #495d7f;
+    border-color: #495d7f;
+}
+
+.price-slider .ui-slider-horizontal .ui-slider-handle {
+    background: #495d7f;
+}
+
+.price-slider .ui-slider-range {
+    background: #495d7f;
+}
+
+.p-social-media a:hover {
+    color: #495d7f;
+}
+
+.blog-content .blog-categories .active a {
+    background-color: #495d7f;
+}
+
+.nav-payout-accounts .active, .nav-payout-accounts .show > .nav-link {
+    background-color: #495d7f !important;
+}
+
+.pagination .active a {
+    border: 1px solid #495d7f !important;
+    background-color: #495d7f !important;
+}
+
+.pagination li a:hover, .pagination li a:focus, .pagination li a:active {
+    background-color: #495d7f;
+    border: 1px solid #495d7f;
+}
+
+.spinner > div {
+    background-color: #495d7f;
+}
+
+::selection {
+    background: #495d7f !important; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #495d7f !important; /* Gecko Browsers */
+}
+
+.cookies-warning a {
+    color: #495d7f;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #495d7f;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #495d7f;
+    background-color: #495d7f;
+}
