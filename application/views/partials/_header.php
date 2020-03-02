@@ -59,6 +59,8 @@ if ($language->id == $site_lang->id):?>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css"/>
+	<!--  -->
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/font/style.css"/>
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style-1.5.min.css"/>
 	<!-- Owl Carousel -->
@@ -94,7 +96,6 @@ if ($language->id == $site_lang->id):?>
 									<div class="logo">
 										<a href="<?php echo lang_base_url(); ?>"><img src="<?php echo get_logo($general_settings); ?>" alt="logo"></a>
 									</div>
-
 									<div class="top-search-bar">
 										<?php echo form_open(lang_base_url() . 'search', ['id' => 'form_validate_search', 'class' => 'form_search_main', 'method' => 'get']); ?>
 										<div class="left">
@@ -124,7 +125,6 @@ if ($language->id == $site_lang->id):?>
 										</div>
 										<?php echo form_close(); ?>
 									</div>
-
 								</div>
 							</div>
 							<div class="col-md-5 nav-top-right">
@@ -140,7 +140,6 @@ if ($language->id == $site_lang->id):?>
 											</a>
 										</li>
 									<?php endif; ?>
-
 									<?php if ($this->auth_check): ?>
 										<li class="nav-item li-main-nav-right">
 											<a href="<?php echo lang_base_url(); ?>favorites/<?php echo $this->auth_user->slug; ?>">
@@ -160,7 +159,7 @@ if ($language->id == $site_lang->id):?>
 									<?php if (auth_check()): ?>
 										<li class="dropdown profile-dropdown">
 											<a class="dropdown-toggle a-profile" data-toggle="dropdown" href="javascript:void(0)"
-											   aria-expanded="false">
+												aria-expanded="false">
 												<?php if ($unread_message_count > 0): ?>
 													<span class="notification"><?php echo $unread_message_count; ?></span>
 												<?php endif; ?>

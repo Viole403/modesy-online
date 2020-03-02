@@ -97,28 +97,6 @@
 							</div>
 							<div class="row row-region">
 								<div class="col-12">
-									<?php if ($general_settings->default_product_location == 0): ?>
-										<div class="region-left">
-											<div class="row-custom footer-location">
-												<div class="icon-text">
-													<i class="icon-map-marker"></i>
-												</div>
-												<div class="dropdown">
-													<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-														<?php echo $default_location; ?>&nbsp;<span class="icon-arrow-down"></span>
-													</button>
-													<div class="dropdown-menu">
-														<a class="dropdown-item" href="javascript:void(0)" onclick="set_default_location('all');"><?php echo trans("all"); ?></a>
-														<?php if (!empty($countries)): foreach ($countries as $item): ?>
-															<a class="dropdown-item" href="javascript:void(0)" onclick="set_default_location('<?php echo $item->id; ?>');"><?php echo html_escape($item->name); ?></a>
-														<?php endforeach;
-														endif; ?>
-													</div>
-												</div>
-											</div>
-										</div>
-									<?php endif; ?>
-
 									<div class="region-right">
 										<?php if ($general_settings->multilingual_system == 1 && count($languages) > 1): ?>
 											<div class="row-custom">
@@ -157,13 +135,6 @@
 				<div class="container">
 					<div class="copyright">
 						<?php echo html_escape($settings->copyright); ?>
-					</div>
-					<div class="footer-payment-icons">
-						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo base_url(); ?>assets/img/payment/visa.svg" alt="visa" class="lazyload">
-						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo base_url(); ?>assets/img/payment/mastercard.svg" alt="mastercard" class="lazyload">
-						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo base_url(); ?>assets/img/payment/maestro.svg" alt="maestro" class="lazyload">
-						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo base_url(); ?>assets/img/payment/amex.svg" alt="amex" class="lazyload">
-						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="<?php echo base_url(); ?>assets/img/payment/discover.svg" alt="discover" class="lazyload">
 					</div>
 				</div>
 			</div>

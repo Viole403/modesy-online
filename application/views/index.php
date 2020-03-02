@@ -52,7 +52,7 @@
 			<?php endif; ?>
 			<div class="col-12">
 				<div class="row-custom row-bn">
-					<!--Include banner-->
+					<!-- Include banner -->
 					<?php $this->load->view("partials/_ad_spaces", ["ad_space" => "index_2", "class" => ""]); ?>
 				</div>
 			</div>

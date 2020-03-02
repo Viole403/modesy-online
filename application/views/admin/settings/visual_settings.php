@@ -87,7 +87,7 @@
 							</div>
 							<div class="custom-checkbox">
 								<input type="radio" name="site_color" id="color10" value="cascade"
-									   class="regular-checkbox"
+										class="regular-checkbox"
 									<?php echo ($visual_settings->site_color === "cascade") ? "checked" : ""; ?>/>
 								<label for="color10" style="background-color:  #95a5a6;"></label>
 							</div>
@@ -95,6 +95,12 @@
 								<input type="radio" name="site_color" id="color11" value="royal_blue" class="regular-checkbox"
 									<?php echo ($visual_settings->site_color === "royal_blue") ? "checked" : ""; ?>/>
 								<label for="color11" style="background-color:  #2a41e8;"></label>
+							</div>
+							<div class="custom-checkbox">
+								<input type="radio" name="site_color" id="color12" value="slate_blue"
+										class="regular-checkbox"
+									<?php echo ($visual_settings->site_color === "slate_blue") ? "checked" : ""; ?>/>
+								<label for="color12" style="background-color:  #6A5ACD;"></label>
 							</div>
 						</div>
 					</div>

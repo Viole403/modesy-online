@@ -13,11 +13,9 @@
     <?php if (!empty($settings->pinterest_url)): ?>
         <li><a href="<?php echo html_escape($settings->pinterest_url); ?>"><i class="icon-pinterest"></i></a></li>
     <?php endif; ?>
-
     <?php if (!empty($settings->linkedin_url)): ?>
         <li><a href="<?php echo html_escape($settings->linkedin_url); ?>"><i class="icon-linkedin"></i></a></li>
     <?php endif; ?>
-
     <?php if (!empty($settings->vk_url)): ?>
         <li><a href="<?php echo html_escape($settings->vk_url); ?>"><i class="icon-vk"></i></a></li>
     <?php endif; ?>
